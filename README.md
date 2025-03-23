@@ -120,3 +120,4 @@ learning platform.
 
 *OUTPUT* :
 
+![Image](https://github.com/user-attachments/assets/cd813300-0de6-4f08-a271-69a7cf53418d)
