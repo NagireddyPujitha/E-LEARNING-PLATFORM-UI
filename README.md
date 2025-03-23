@@ -126,3 +126,4 @@ learning platform.
 
 ![Image](https://github.com/user-attachments/assets/7ee86d16-1924-48c4-86ae-f08c6d70d6e8)
 
+![Image](https://github.com/user-attachments/assets/7251acf5-c3d5-43d4-8bf1-c61e9412724d)
