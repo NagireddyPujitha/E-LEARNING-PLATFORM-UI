@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="e-learning.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>E-Learning Platform</h1>
+      <nav>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#progress">Progress</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Learn Anytime, Anywhere</h2>
+      <p>Explore our wide range of courses and start your learning journey today.</p>
+      <a href="#courses" class="btn">Browse Courses</a>
+    </div>
+  </section>
+
+  <!-- Course Listing Section -->
+  <section id="courses" class="courses">
+    <div class="container">
+      <h2>Featured Courses</h2>
+      <div class="course-grid">
+        <div class="course-card">
+          <!-- <img src="https://via.placeholder.com/300x200" alt="Course 1"> -->
+          <h3>Web Development</h3>
+          <p>Learn HTML, CSS, JavaScript, and more to build modern websites.</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+        <div class="course-card">
+          <!-- <img src="https://via.placeholder.com/300x200" alt="Course 2"> -->
+          <h3>Data Science</h3>
+          <p>Master Python, Machine Learning, and Data Analysis.</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+        <div class="course-card">
+          <!-- <img src="https://via.placeholder.com/300x200" alt="Course 3"> -->
+          <h3>Graphic Design</h3>
+          <p>Create stunning designs with Adobe Photoshop and Illustrator.</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progress Tracking Section -->
+  <section id="progress" class="progress">
+    <div class="container">
+      <h2>Your Progress</h2>
+      <div class="progress-grid">
+        <div class="progress-card">
+          <h3>Web Development</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 70%;"></div>
+          </div>
+          <p>70% Completed</p>
+        </div>
+        <div class="progress-card">
+          <h3>Data Science</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 40%;"></div>
+          </div>
+          <p>40% Completed</p>
+        </div>
+        <div class="progress-card">
+          <h3>Graphic Design</h3>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 90%;"></div>
+          </div>
+          <p>90% Completed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Embedding Section -->
+  <section id="dashboard" class="dashboard">
+    <div class="container">
+      <h2>Course Video</h2>
+      <div class="video-container">
+        <iframe
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/PkZNo7MFNFg"
+          title="Learn JavaScript - Full Course for Beginners"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 E-Learning Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="e-learning.js"></script>
+</body>
+</html>
